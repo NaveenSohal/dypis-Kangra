@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home2/dypiskangra/public_html/
     - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R assets DEPLOYPATH
