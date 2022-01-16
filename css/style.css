@@ -120,7 +120,7 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  color: #333;
+  color: #030e12;
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
 }
 
@@ -270,17 +270,17 @@ h5 {
   text-decoration: none;
   color: #555;
   width: 80px;
-  border-left: solid 1px #eee;
+  border-left: solid 1px #5bccf6;
   text-align: center;
 }
 
 #mainmenu li:last-child a {
-  border-right: solid 1px #eee;
+  border-right: solid 1px #5bccf6;
 }
 
 #mainmenu a:hover {
-  color: #469159;
-  background: #f8f8f8;
+  color: #030e12;
+  background: #5bccf6;
 }
 
 #mainmenu li li {
@@ -295,10 +295,10 @@ h5 {
 
 #mainmenu li li a {
   padding: 2px 15px 2px 15px;
-  background: #555555;
+  background: #5bccf6;
   border-top: none;
-  color: #ccc;
-  width: 140px;
+  color: #030e12;
+  width: 170px;
   border-left: none;
   text-align: left;
 }
@@ -313,7 +313,7 @@ h5 {
 }
 
 #mainmenu li li a:hover {
-  color: #fff;
+  color: #030e12;
   background: #469159;
 }
 
@@ -368,7 +368,7 @@ h5 {
 /* -------------------------------------------------- */
 footer {
   border-top: solid 1px #eee;
-  background: #f5f5f5;
+  background: #5bccf6;
   padding: 40px 0 40px 0;
 }
 
@@ -377,7 +377,7 @@ footer h3 {
 }
 
 footer a {
-  color: #555;
+  color: #441bff;
 }
 
 footer a:visited {
@@ -1278,14 +1278,14 @@ header {
 
 header .info {
   border-bottom: none;
-  color: #555;
+  color: #030e12;
   background: #5bccf6;
   border-bottom: solid 1px #eee;
   font-size: 12px;
 }
 
 header .info a {
-  color: #646464;
+  color: #441bff;
 }
 
 header .info .separator {
@@ -2049,7 +2049,7 @@ a.img-icon-zoom {
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
   background: #469159;
-  color: #fff;
+  color: #030e12;
   padding: 5px 8px 5px 8px;
 }
 
