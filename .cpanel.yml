@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/cp * /home2/dypiskangra/public_html/
+    - /bin/cp -r * /home2/dypiskangra/public_html/
