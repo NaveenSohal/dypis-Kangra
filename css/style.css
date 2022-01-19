@@ -1609,6 +1609,7 @@ a,
 a:hover,
 .test-column,
 .test-column:hover {
+  color: #fff;
   -o-transition: 0.3s;
   -ms-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -2164,8 +2165,8 @@ address span strong {
   background: url(../images/social-icons/facebook.png) top no-repeat;
 }
 
-.sb-icon-twitter {
-  background: url(../images/social-icons/twitter.png) top no-repeat;
+.sb-icon-youtube {
+  background: url(../images/social-icons/youtube.png) top no-repeat;
 }
 
 .sb-icon-rss {

@@ -18,7 +18,6 @@ span.overlay,
 #mainmenu a:hover,
 #mainmenu li:hover > ul,
 .date-box .day,
-.slider_text h1,
 .id-color,
 .pricing-box li h1,
 .title span,
@@ -26,6 +25,12 @@ a,
 a:visited,
 i.large:hover {
   color: #030e12;
+}
+.slider_text h1,
+a,
+a:visited,
+i.large:hover {
+  color: #5bccf6;
 }
 
 #filters a:hover,
