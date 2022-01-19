@@ -1925,10 +1925,11 @@ a.img-icon-zoom {
   border: none !important;
   margin: 0;
   padding: 20px 100px 0px 100px;
-  font-size: 24px;
+  font-size: 34px;
   font-weight: normal;
   font-family: "PT Sans";
-  color: #fff;
+  color: #030e12;
+  background-color: rgba(255, 255, 255, 0.404);
 }
 
 .testi-slider .flex-control-nav {
