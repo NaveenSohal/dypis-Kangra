@@ -500,10 +500,10 @@ footer a:hover {
 
 .blog-list li {
   list-style: none;
-  background: url(../images/dotwhite50.png);
+  /* background: url(../images/dot.png); */
   line-height: 1.7em;
+  font-size: 18px;
 }
-
 .blog-header .by {
   display: inline-block;
   float: left;
