@@ -9,9 +9,9 @@
 /* -------------------------------------------------- */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #030e12;
-  background-color: #fcde67;
+  background-color: #fecf1e;
   line-height: 1.7em;
   padding: 0;
 }
@@ -222,6 +222,7 @@ h5 {
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .feature-box-small-icon .inner {
@@ -270,17 +271,17 @@ h5 {
   text-decoration: none;
   color: #555;
   width: 80px;
-  border-left: solid 1px #5bccf6;
+  border-left: solid 1px #ff3d57;
   text-align: center;
 }
 
 #mainmenu li:last-child a {
-  border-right: solid 1px #5bccf6;
+  border-right: solid 1px #ff3d57;
 }
 
 #mainmenu a:hover {
   color: #030e12;
-  background: #5bccf6;
+  background: #ff3d57;
 }
 
 #mainmenu li li {
@@ -295,7 +296,7 @@ h5 {
 
 #mainmenu li li a {
   padding: 2px 15px 2px 15px;
-  background: #5bccf6;
+  background: #ff3d57;
   border-top: none;
   color: #030e12;
   width: 170px;
@@ -368,7 +369,7 @@ h5 {
 /* -------------------------------------------------- */
 footer {
   border-top: solid 1px #eee;
-  background: #5bccf6;
+  background: #ff3d57;
   padding: 40px 0 40px 0;
 }
 
@@ -554,7 +555,7 @@ footer a:hover {
 }
 
 .blog-list a.readmore:hover {
-  background: url(../images/arrow-2.png) left center no-repeat #5bccf6;
+  background: url(../images/arrow-2.png) left center no-repeat #ff3d57;
 }
 
 .blog-list .preview {
@@ -1234,7 +1235,7 @@ footer a:hover {
 /* header */
 /* -------------------------------------------------- */
 header {
-  background: #fcde67;
+  background: #fecf1e;
   width: 100%;
   z-index: 100;
   position: relative;
@@ -1279,7 +1280,7 @@ header {
 header .info {
   border-bottom: none;
   color: #030e12;
-  background: #5bccf6;
+  background: #ff3d57;
   border-bottom: solid 1px #eee;
   font-size: 12px;
 }
@@ -1391,6 +1392,11 @@ blockquote span {
 .img-left {
   float: left;
   margin: 5px 15px 15px 0;
+}
+.img-center {
+  float: none;
+  margin: 5px 15px 15px 120px;
+  width: 70%;
 }
 
 .img-right {

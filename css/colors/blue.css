@@ -1,4 +1,4 @@
-/* default color: #5bccf6 */
+/* default color: #ff3d57 */
 .feature-box i,
 .feature-box-small-icon i,
 #mainmenu li li a:hover,
@@ -12,7 +12,7 @@ span.overlay,
 .widget_tags li a,
 .btn-primary,
 .bg-id-color {
-  background: #fcde67;
+  background: #fecf1e;
 }
 
 #mainmenu a:hover,
@@ -24,14 +24,14 @@ span.overlay,
 a,
 a:visited,
 i.large:hover {
-  color: #c762cb;
+  color: #424242;
 }
 
 #filters a:hover,
 #filters a.selected {
-  border-color: #5bccf6;
+  border-color: #ff3d57;
 }
 
 .callbacks_nav {
-  background-color: #5bccf6;
+  background-color: #ff3d57;
 }
