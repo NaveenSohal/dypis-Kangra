@@ -24,13 +24,7 @@ span.overlay,
 a,
 a:visited,
 i.large:hover {
-  color: #030e12;
-}
-.slider_text h1,
-a,
-a:visited,
-i.large:hover {
-  color: #5bccf6;
+  color: #c762cb;
 }
 
 #filters a:hover,
