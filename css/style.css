@@ -11,7 +11,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #030e12;
-  background-color: #fecf1e;
+  background: rgb(245, 234, 193);
+  background: radial-gradient(
+    circle,
+    rgba(245, 234, 193, 1) 0%,
+    rgba(255, 204, 9, 1) 100%
+  );
   line-height: 1.7em;
   padding: 0;
 }
@@ -1279,14 +1284,14 @@ header {
 
 header .info {
   border-bottom: none;
-  color: #030e12;
+  color: #fff;
   background: #ff3d57;
   border-bottom: solid 1px #eee;
   font-size: 12px;
 }
 
 header .info a {
-  color: #441bff;
+  color: #fff0f5;
 }
 
 header .info .separator {
@@ -1922,7 +1927,7 @@ a.img-icon-zoom {
 
 /* flex slider - testi slider */
 #testimonial-full {
-  background: url(../images-slider/wide1.jpg) top center !important;
+  background: url(/images/testimonial.jpg) top center !important;
   text-align: center;
   padding: 10px 0 10px 0;
 }
@@ -1935,7 +1940,6 @@ a.img-icon-zoom {
   font-weight: normal;
   font-family: "PT Sans";
   color: #030e12;
-  background-color: rgba(255, 255, 255, 0.404);
 }
 
 .testi-slider .flex-control-nav {
