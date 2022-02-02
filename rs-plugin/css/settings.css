@@ -591,7 +591,9 @@ website:   	http://www.themepunch.com
 }
 
 .tp-simpleresponsive img {
-  max-width: none;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /******************************
@@ -1152,6 +1154,7 @@ website:   	http://www.themepunch.com
   -khtml-user-select: none;
   -webkit-user-select: none;
   -o-user-select: none;
+  max-width: 100%;
 }
 
 .tp-simpleresponsive a {
@@ -1166,6 +1169,8 @@ website:   	http://www.themepunch.com
 
 .tp-simpleresponsive > ul > li {
   list-stye: none;
+  max-width: 100%;
+  display: flex;
   position: absolute;
   visibility: hidden;
 }

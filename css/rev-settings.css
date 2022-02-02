@@ -17,6 +17,8 @@ html {
 
 #revolution-slider {
   max-height: 450px !important;
+  display: flex;
+  justify-content: center;
 }
 
 .tparrows {
