@@ -1447,6 +1447,7 @@ blockquote span {
 .img-left {
   float: left;
   margin: 5px 15px 15px 0;
+  max-width: 400px;
 }
 .img-center {
   float: none;
