@@ -576,7 +576,11 @@ website:   	http://www.themepunch.com
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
 }
-
+#cutout {
+  float: left;
+  display: flex;
+  max-width: 100%;
+}
 /************************************************
 	  - SOME CAPTION MODIFICATION AT START  -
 *************************************************/
