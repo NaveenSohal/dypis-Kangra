@@ -15,6 +15,10 @@ span.overlay,
   background: #fecf1e;
 }
 
+#links {
+  color: #ff3d57;
+}
+
 #mainmenu a:hover,
 #mainmenu li:hover > ul,
 .date-box .day,

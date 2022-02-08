@@ -102,6 +102,47 @@ body.p20 {
   background-image: url(../images/bg-pattern/p20.png);
 }
 
+/* MODAL WINDOW */
+.splash {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 455px;
+  background-color: #f3f3f3;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: all 0.5s;
+}
+
+.splash-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+.btn--close-modal {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.1rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  padding: 1rem 1.5rem;
+}
+
+.splash-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
 /* -------------------------------------------------- */
 /* dropcap */
 /* -------------------------------------------------- */
@@ -186,7 +227,7 @@ h5 {
 /* content */
 /* -------------------------------------------------- */
 #content {
-  padding: 50px 0 0 0;
+  padding: 30px 0 0 0;
 }
 
 #features {
@@ -228,7 +269,7 @@ h5 {
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 
 .feature-box-small-icon .inner {
@@ -818,6 +859,7 @@ footer a:hover {
 
 .post-image img {
   display: block;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -1405,6 +1447,7 @@ blockquote span {
 .img-left {
   float: left;
   margin: 5px 15px 15px 0;
+  max-width: 400px;
 }
 .img-center {
   float: none;
@@ -1805,6 +1848,7 @@ span.overlay {
   text-align: center;
   display: block;
   display: none;
+  float: left;
   width: 100px;
   background: #469159;
   position: absolute;
