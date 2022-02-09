@@ -1458,6 +1458,7 @@ blockquote span {
 .img-right {
   float: right;
   margin: 5px 0 15px 15px;
+  max-width: 500px;
 }
 
 /* -------------------------------------------------- */
