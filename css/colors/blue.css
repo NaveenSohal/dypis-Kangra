@@ -1,0 +1,41 @@
+/* default color: #ff3d57 */
+.feature-box i,
+.feature-box-small-icon i,
+#mainmenu li li a:hover,
+.blog-list .date,
+.date-box .month,
+.blog-read .date,
+.slider-info .text1,
+#filters a.selected,
+span.overlay,
+#testimonial-full,
+.widget_tags li a,
+.btn-primary,
+.bg-id-color {
+  background: #fecf1e;
+}
+
+#links {
+  color: #ff3d57;
+}
+
+#mainmenu a:hover,
+#mainmenu li:hover > ul,
+.date-box .day,
+.id-color,
+.pricing-box li h1,
+.title span,
+a,
+a:visited,
+i.large:hover {
+  color: #fff;
+}
+
+#filters a:hover,
+#filters a.selected {
+  border-color: #ff3d57;
+}
+
+.callbacks_nav {
+  background-color: #ff3d57;
+}
