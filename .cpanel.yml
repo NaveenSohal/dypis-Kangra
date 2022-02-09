@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /bin/cp -r * /home2/dypiskangra/public_html/
