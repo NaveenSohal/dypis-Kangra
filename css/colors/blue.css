@@ -1,6 +1,5 @@
 /* default color: #ff3d57 */
 .feature-box i,
-.feature-box-small-icon i,
 #mainmenu li li a:hover,
 .blog-list .date,
 .date-box .month,
@@ -15,6 +14,9 @@ span.overlay,
   background: #ff3d57;
 }
 
+.feature-box-small-icon i {
+  background: none;
+}
 #links {
   color: #ff3d57;
 }
