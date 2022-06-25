@@ -1,9 +1,10 @@
 ﻿/* -------------------------------------------------- */
-/* created by designesia
+/* created by naveen and sanyam
 /* -------------------------------------------------- */
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Montserrat&family=Ubuntu:wght@500&display=swap");
+@import "./navbar.css";
 /* -------------------------------------------------- */
 /* body */
 /* -------------------------------------------------- */
@@ -12,14 +13,15 @@ body {
   font-size: 14px;
   text-align: justify;
   color: #030e12;
-  background: rgb(245, 234, 193);
-  background: radial-gradient(
+  background: #fff;
+  /* background: radial-gradient(
     circle,
     rgba(245, 234, 193, 1) 0%,
     rgba(255, 204, 9, 1) 100%
-  );
+  ); */
   line-height: 1.7em;
   padding: 0;
+  overflow: hidden;
 }
 
 body.p1 {
@@ -1325,7 +1327,7 @@ header {
 */
 
 .sticky-2 {
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 
 .h_info_hide {
