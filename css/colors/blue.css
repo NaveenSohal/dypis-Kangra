@@ -8,7 +8,6 @@
 #filters a.selected,
 span.overlay,
 #testimonial-full,
-.widget_tags li a,
 .btn-primary,
 .bg-id-color {
   background: #ff3d57;
@@ -22,13 +21,16 @@ span.overlay,
 }
 
 #mainmenu a:hover,
+.menu-items a:hover,
+.menu-items li ul:hover,
 #mainmenu li:hover > ul,
 .date-box .day,
 .id-color,
 .pricing-box li h1,
 .title span,
-a,
-a:visited,
+/* a,
+a:visited, */
+.menu-items li:hover > ul,
 i.large:hover {
   color: #fff;
 }

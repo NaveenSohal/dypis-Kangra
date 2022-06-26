@@ -58,23 +58,101 @@
   display: flex;
 }
 
+.menu-items ul {
+  float: right;
+  font-size: 1.2rem;
+  margin: 0px -30px;
+  padding: 0px 0px;
+  height: 30px;
+}
+
 .menu-items li {
   list-style: none;
-  margin-left: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0px 0px;
   font-size: 1.2rem;
+  padding: 12px 0px;
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+.menu-items li li {
+  font-size: 16px;
+  text-align: left;
+  font-weight: normal;
+  border-bottom: solid 1px #626262;
+
+  /* width: 140px;
+  height: 44px; */
+}
+
+.menu-items li li {
+  display: block;
+  float: none;
+}
+
+.menu-items li li:last-child {
+  border-bottom: none;
+}
+
+.menu-items li li a {
+  border-top: none;
+  color: #fff;
+  width: 170px;
+  border-left: none;
+  text-align: left;
+  padding: 2px 15px 2px 15px;
+}
+
+.menu-items li li:last-child a {
+  border-right: none;
+}
+
+.menu-items li li li a {
+  padding: 2px 15px 2px 15px;
+  background: #505050;
+}
+
+.menu-items li li a:hover {
+  color: #030e12;
+  background: #fff;
+}
+
+.menu-items li ul {
+  width: 200px;
+  height: auto;
+  background: #ff3d57;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 10;
+  display: none;
+}
+
+.menu-items li:hover > ul {
+  display: block;
+}
+
+.menu-items li ul ul {
+  left: 100%;
+  top: 0px;
+}
+
+.menu-items li:hover > ul {
+  color: #469159;
 }
 
 .menu-items a {
   text-decoration: none;
   color: #fff;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 
 .menu-items a:hover {
-  color: #117964;
+  color: #030e12;
+  background: #ff3d57;
   transition: color 0.3s ease-in-out;
 }
 
@@ -85,7 +163,7 @@
 }
 
 .logo > img {
-  width: 45%;
+  width: 55%;
 }
 
 /* ......../ media query /.......... */
@@ -154,7 +232,8 @@
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #fff;
+    background: #ff3d57;
+    opacity: 0.85;
     height: 100vh;
     max-width: 300px;
     transform: translate(-150%);
@@ -167,10 +246,18 @@
   }
 
   .navbar .menu-items li {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     font-size: 1.3rem;
     font-weight: 500;
   }
+
+  .navbar .menu-items li li a {
+    margin-left: 62px;
+    font-size: 16px;
+  }
+  /* .navbar .menu-items li ul {
+    width: 0px;
+  } */
 
   .logo {
     position: absolute;
