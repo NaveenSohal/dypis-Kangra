@@ -293,3 +293,19 @@ const closeImageModal = () => {
     document.querySelector(el).classList.add("splash-hidden");
   });
 };
+//side hamburger closer
+function x() {
+  const hamburgerButton = document.querySelector(
+    ".navbar-box > input[type=checkbox]"
+  );
+  const mainBody = document.getElementById("content");
+  mainBody.addEventListener("click", () => {
+    const innerWidth = window.innerWidth;
+    if (innerWidth <= 768 && hamburgerButton.checked) {
+      hamburgerButton.checked = false;
+    }
+  });
+}
+setTimeout(() => {
+  x();
+}, 1000);
