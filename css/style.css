@@ -1,9 +1,10 @@
 ﻿/* -------------------------------------------------- */
-/* created by designesia
+/* created by naveen and sanyam
 /* -------------------------------------------------- */
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Montserrat&family=Ubuntu:wght@500&display=swap");
+@import "./navbar.css";
 /* -------------------------------------------------- */
 /* body */
 /* -------------------------------------------------- */
@@ -12,14 +13,15 @@ body {
   font-size: 14px;
   text-align: justify;
   color: #030e12;
-  background: rgb(245, 234, 193);
-  background: radial-gradient(
+  background: #fff;
+  /* background: radial-gradient(
     circle,
     rgba(245, 234, 193, 1) 0%,
     rgba(255, 204, 9, 1) 100%
-  );
+  ); */
   line-height: 1.7em;
   padding: 0;
+  overflow: hidden;
 }
 
 body.p1 {
@@ -227,7 +229,7 @@ h5 {
 /* content */
 /* -------------------------------------------------- */
 #content {
-  padding: 30px 0 0 0;
+  padding: 50px 0 0 0;
 }
 
 #features {
@@ -1325,7 +1327,7 @@ header {
 */
 
 .sticky-2 {
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 
 .h_info_hide {
@@ -1375,7 +1377,7 @@ header .info-text {
 /* subheader */
 /* -------------------------------------------------- */
 #subheader {
-  padding: 20px 0 20px 0;
+  padding: 50px 0 20px 0;
   border-top: solid 1px #eee;
   border-bottom: solid 1px #eee;
 }
@@ -1400,7 +1402,7 @@ header .info-text {
 /* -------------------------------------------------- */
 a,
 a:visited {
-  color: #469159;
+  color: #fff;
 }
 
 a:hover {
@@ -2113,8 +2115,8 @@ a.img-icon-zoom {
   border-radius: 1px;
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
-  background: #469159;
-  color: #030e12;
+  background: #fff;
+  color: #ff3d57;
   padding: 5px 8px 5px 8px;
 }
 
